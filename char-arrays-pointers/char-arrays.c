@@ -66,6 +66,7 @@ int main(void)
     printf("%s\n", c1); // Aello
     // c1[i] == *(c1+i)
     // pointer arithmetic is invalid for c1 which is array not ptr variable
+    // only read access is possible, we cannot modify c1
 
     // 3. Arrays are always passed by reference to functions
     char my_string[20] = "Johnny";
